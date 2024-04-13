@@ -22,5 +22,8 @@ const arr = [
   1, 4, 2, 8, -345, 123, 43, 32, 5643, -63, 123, 43, -2, 55, 1, 234, 92,
 ];
 console.log(arr);
-quickSort(arr)
-console.log(arr);
+const sortedArr = quickSort(arr)
+console.log(sortedArr);
+
+// Big-O Worst case - O(n^2)
+// Big-O Avg case - O(n log n)
